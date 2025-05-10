@@ -50,7 +50,7 @@ export function AboutSection() {
           {/* Left Column - Image and Quick Info */}
           <motion.div variants={itemVariants} className="flex flex-col items-center md:items-start gap-8">
             <Avatar className="h-40 w-40">
-            <AvatarImage src="/profile-pic.jpg" alt="Muhammad Saddique Shah" />
+            <AvatarImage src="./profile-pic.jpg" alt="Muhammad Saddique Shah" />
               <AvatarFallback>MSS</AvatarFallback>
             </Avatar>
             
@@ -59,7 +59,7 @@ export function AboutSection() {
               <p className="text-muted-foreground">Frontend Developer & Web3 Enthusiast</p>
             </div>
             
-            <a href="/saddique-updated.pdf" download>
+            <a href="./saddique-updated.pdf" download>
   <Button variant="outline" className="gap-2">
     <Download size={16} />
     Download Resume
