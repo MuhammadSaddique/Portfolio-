@@ -30,6 +30,14 @@ export const projects = [
     live: "https://agua-new-web.vercel.app/",
   },
   {
+  title: "M A E Electromechanical – Bilingual Corporate Website",
+  description: "A modern corporate website for a Dubai-based MEP firm, featuring full RTL support, smooth animations, dynamic content, and a responsive user interface designed for seamless user experience across all devices.",
+  technologies: ["React.js", "TypeScript", "Tailwind CSS", "React Router", "react-i18next", "Framer Motion"],
+  image: "/projects/mae-electromechanical.png",
+  github: "https://github.com/MuhammadSaddique/MEP-Engineering-Website",
+  live: "https://mae-engineering-website-8b59.vercel.app/"
+},
+  {
     title: "Attendance Tracking System",
     description: "Role-based attendance management system for organizations",
     technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
